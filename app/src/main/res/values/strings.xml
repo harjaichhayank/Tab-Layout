@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TabLayout</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_home_fragment">Hello Home Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_TopFree_fragment">Hello TopFree Fragment</string>
+    <string name="hello_TopPaid_fragment">Hello TopPaid Fragment</string>
+</resources>
