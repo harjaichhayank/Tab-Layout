@@ -1,8 +1,7 @@
 package com.example.tablayout.ui.main;
 
-import android.content.Context;
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -11,18 +10,19 @@ import java.util.ArrayList;
 
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-    ArrayList<Fragment> fragments = new ArrayList<>();
-    ArrayList<String> tabTitles = new ArrayList<>();
+    private ArrayList<Fragment> fragments = new ArrayList<>();
+    private ArrayList<String> tabTitles = new ArrayList<>();
 
-    public SectionsPagerAdapter(FragmentManager fm) {
-        super(fm);
+    public SectionsPagerAdapter(@NonNull FragmentManager fm, int behavior) {
+        super(fm, behavior);
     }
 
-    public void addFragments(Fragment fragment,String titles){
+    public void addFragments(Fragment fragment, String titles){
         this.fragments.add(fragment);
         this.tabTitles.add(titles);
     }
 
+    @NonNull
     @Override
     public Fragment getItem(int position) {
         return fragments.get(position);

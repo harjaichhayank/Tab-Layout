@@ -1,12 +1,19 @@
 <resources>
-    <string name="app_name">TabLayout</string>
+    <string name="app_name">Fitness And Wellness</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_home_fragment">Hello Home Fragment</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_TopFree_fragment">Hello TopFree Fragment</string>
-    <string name="hello_TopPaid_fragment">Hello TopPaid Fragment</string>
+    <string name="imageView">ImageView</string>
+    <string name="descriptions">Descriptions</string>
+    <string name="map">MAP</string>
+    <string name="imageButton">ImageButton</string>
+    <string name="menu">Menu</string>
+    <string name="call">call</string>
+    <string name="redeem">Redeem</string>
+    <string name="_2_for_1">2 For 1</string>
+    <string name="body">Body</string>
+    <string name="estimated_savings">Estimated Savings</string>
+    <string name="validity">Validity</string>
+    <string name="value">value</string>
+    <string name="date">Date</string>
+    <string name="off">% Off</string>
 </resources>
